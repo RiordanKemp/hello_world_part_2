@@ -12,14 +12,34 @@ main{
 
 .details{
     display:flex;
+    gap: 25px;
+}
+
+.masthead{
+    background-image: url('images/computer_image.jpg');
+    height: 200px;
+    border-radius: 20px;
+    background-position: bottom;
 }
 
 .details section{
     flex-grow: 1;
     flex-basis: 0;
-    background: #eee;
+    background: #ddd;
+    padding: 25px;
+    border-radius: 20px;
+    margin-top: 25px
 }
 
 img{
     width:100%;
+}
+
+h2{
+    margin:0 0 10px 0;
+}
+
+p{
+    margin:0
+    line-height: 1.4em;
 }
